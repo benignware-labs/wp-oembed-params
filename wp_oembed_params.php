@@ -4,7 +4,7 @@
  Plugin Name: OEmbed Params
  Plugin URI: http://github.com/benignware-labs/wp-oembed-params
  Description: Manipulate oembed provider params
- Version: 0.0.1
+ Version: 0.0.2
  Author: Rafael Nowrotek, Benignware
  Author URI: http://benignware.com
  License: MIT
@@ -36,6 +36,6 @@ function wp_oembed_params_filter($html, $url, $attr, $post_ID = null) {
   }
   return $html;
 }
-add_filter( 'embed_oembed_html', 'wp_oembed_params_filter', 10, 4 ) ;
+add_filter( 'embed_oembed_html', 'wp_oembed_params_filter', 1, 4 ) ;
 
 ?>

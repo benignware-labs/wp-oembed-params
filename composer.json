@@ -1,7 +1,7 @@
 {
   "name": "wp-oembed-params",
   "description": "Manipulate oembed provider params",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "wordpress-plugin",
   "license": "MIT",
   "homepage": "http://github.com/benignware-labs/wp-oembed-params",
